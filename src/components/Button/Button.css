@@ -1,0 +1,21 @@
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+button {
+  width: 50%;
+  height: 50px;
+  background-color: #4987fa;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #9bc0e3;
+  color: #000;
+}

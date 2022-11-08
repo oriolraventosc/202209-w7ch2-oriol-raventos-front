@@ -1,0 +1,19 @@
+.robot-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 0 50px;
+}
+
+@media (min-width: 900px) {
+  .robot-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
